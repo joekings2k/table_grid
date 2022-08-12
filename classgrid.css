@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.girdContainer{
+    background-color: blue;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 1000px;
+    position: relative;
+    top: 320px;
+    left:450px ;
+}
+.girdContainer > aside{
+    background-color: aqua;
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+    margin: 15px;   
+}
+.item1{
+    grid-column: 1 / span 3;
+    text-align: center;
+}
+.item2{
+    grid-row: 2 / span 2 ;
+}
+.item5{
+    grid-column: 2 / span 2;
+}
